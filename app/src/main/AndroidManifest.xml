@@ -13,6 +13,72 @@
         android:theme="@style/Theme.Layout_"
         tools:targetApi="34">
         <activity
+            android:name=".bigbro"
+            android:exported="false" />
+        <activity
+            android:name=".beast"
+            android:exported="false" />
+        <activity
+            android:name=".ka"
+            android:exported="false" />
+        <activity
+            android:name=".dio"
+            android:exported="false" />
+        <activity
+            android:name=".ibu"
+            android:exported="false" />
+        <activity
+            android:name=".aword"
+            android:exported="false" />
+        <activity
+            android:name=".ika"
+            android:exported="false" />
+        <activity
+            android:name=".min"
+            android:exported="false" />
+        <activity
+            android:name=".nurul"
+            android:exported="false" />
+        <activity
+            android:name=".mainchat"
+            android:exported="false" />
+        <activity
+            android:name=".quora"
+            android:exported="false" />
+        <activity
+            android:name=".line"
+            android:exported="false" />
+        <activity
+            android:name=".reddit"
+            android:exported="false" />
+        <activity
+            android:name=".tiktok"
+            android:exported="false" />
+        <activity
+            android:name=".youtube"
+            android:exported="false" />
+        <activity
+            android:name=".twitte"
+            android:exported="false" />
+        <activity
+            android:name=".facebook"
+            android:exported="false" />
+        <activity
+            android:name=".pinterest"
+            android:exported="false" />
+        <activity
+            android:name=".instagram"
+            android:exported="false" />
+        <activity
+            android:name=".telegram"
+            android:exported="false" />
+        <activity
+            android:name=".whatsapp"
+            android:exported="false" />
+        <activity
+            android:name=".gethelp"
+            android:exported="false" />
+        <activity
             android:name=".Language"
             android:exported="true" />
         <activity
@@ -50,9 +116,7 @@
             android:exported="true" />
         <activity
             android:name=".MainActivity"
-            android:exported="true">
-
-        </activity>
+            android:exported="true" />
     </application>
 
 </manifest>

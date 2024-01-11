@@ -14,6 +14,7 @@ public class seting extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_seting);
 
+
         Button about = findViewById(R.id.btn_abt);
         about.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -31,6 +32,15 @@ public class seting extends AppCompatActivity {
             public void onClick(View view) {
 
                 Intent intent = new Intent(seting.this, Language.class);
+                startActivity(intent);
+            }
+        });
+
+        Button gethelp = findViewById(R.id.gethelp);
+        gethelp.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(seting.this, com.example.layout_.gethelp.class);
                 startActivity(intent);
             }
         });

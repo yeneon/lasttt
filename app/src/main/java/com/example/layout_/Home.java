@@ -34,6 +34,16 @@ public class Home extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
+        ImageView chatimg= findViewById(R.id.msg);
+        settingimage.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+                Intent intent = new Intent(Home.this, chat.class);
+                startActivity(intent);
+            }
+        });
     }
 
 

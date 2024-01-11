@@ -61,6 +61,7 @@
             android:textStyle="bold"
             android:textSize="30dp"
             android:text="Get Help"
+            android:id="@+id/gethelp"
             android:background="@drawable/button_profile"
             android:layout_weight="1"/>
 
